@@ -21,7 +21,10 @@ h1 {
 h2 {
     font-size: 2rem;
     color: #B5838D;
-    padding-bottom: 3rem;
+}
+
+ol {
+    padding-top: 3rem;
 }
 
 p {
