@@ -30,3 +30,7 @@ p {
 li {
     text-decoration: none;
 }
+
+img {
+    max-width: 60rem;
+}

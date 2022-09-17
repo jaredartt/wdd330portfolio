@@ -5,6 +5,7 @@
     margin: 0;
     font-family: Roboto;
     padding-left: 1rem;
+    box-sizing: border-box;
 }
 
 body {
@@ -25,4 +26,8 @@ h2 {
 
 p {
     color: #E5989B;
+}
+
+img {
+    max-width: 60rem;
 }
