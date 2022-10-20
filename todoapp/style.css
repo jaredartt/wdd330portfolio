@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand';
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+
+    padding: 0.3rem;
+    margin: 0.3rem;
+
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 3px;
+    width: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: url("bg.jpg") no-repeat fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+input {
+    font-size: 2rem;
+    padding: 0.2rem 1rem;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+    width: fit-content;
+}
+
+#push {
+    font-size: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #F3ADCC;
+    border: none;
+    color: white;
+}
+
+button {
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+
+/* CLASSES AND IDS */
+
+.task {
+    background: white;
+    margin-top: 1rem;
+    font-size: 2rem;
+    height: 3rem;
+    padding: 5px 10px;
+    margin-bottom: 1rem;
+
+    border-radius: 3px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.task span {
+    cursor: pointer;
+}
+
+.delete {
+    height: 100%;
+    background-color: #CEB4DB;
+    cursor: pointer;
+
+    padding: 0 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.radio {
+    overflow: hidden;
+    display: inline-flex;
+    border-radius: 3px;
+}
+
+.radio__input {
+    display: none;
+}
+
+.radio__label {
+    padding: 0.5rem 1rem;
+    background-color: #A2D3FD;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.radio__label:not(:last-of-type) {
+    border-right: 1px solid rgb(136, 160, 198);
+}
+.radio__input:checked + .radio__label {
+    background-color: rgb(255, 255, 255);
+}
+
+#taskname {
+    margin: 0 1rem;
+}
+
+input.completed {
+    width: 2rem;
+    height: 2rem;
+    margin: 10px 10px 10px 0;
+}
+
+form {
+    margin: 2rem 0 0.5rem 0;
+}
