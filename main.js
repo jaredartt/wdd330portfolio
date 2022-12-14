@@ -30,6 +30,18 @@ const links = [
   {
     label: "Week8 notes",
     url: "week8/index.html"
+  },
+  {
+    label: "Week9 notes",
+    url: "week9/index.html"
+  },
+  {
+    label: "Week10 notes",
+    url: "week10/index.html"
+  },
+  {
+    label: "Rubik Scrambler | Final Project",
+    url: "RubikScrambler/index.html"
   }
 ]
 
